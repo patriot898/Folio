@@ -1,12 +1,120 @@
-#top-section {
-  height: 480px;
-  background-color: rgba(213, 216, 55, 0.897);
-  background: linear-gradient(54deg,rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
+body {
+  font-weight: 400;
+  margin: 0;
 }
+
+
+#top-section {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+
+@media (min-width: 1200px) {
+  #top-section {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #top-section {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #top-section {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #top-section {
+    max-width: 540px;
+  }
+  #avatar-container {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  #top-section {
+    max-width: 540px;
+  }
+  #avatar-container {
+    display: none;
+  }
+}
+
 
 #main-header {
   background-image: url("headshot.jpg");
   background-position: 50% 10%;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 480px;
+  background-color: rgba(213, 216, 55, 0.897);
+  background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
+  width: 100%;
+  margin: auto;
+}
+
+
+#avatar-container {
+  position: relative;
+  float: left;
+  padding-right: 15px;
+
+}
+
+#avatar-image {
+  position: relative;
+  top: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#contact-container {
+  font-family: Roboto Mono, monospace;
+  float: left;
+  clear: right;
+  margin-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contact-term {
+  float: left;
+  font-weight: 700;
+}
+
+.contact-descrip {
+  padding-left: 100px;
+  margin-bottom: 15px;
+}
+
+.personal-name {
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.personal-job {
+  margin-top: 0;
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 24px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }

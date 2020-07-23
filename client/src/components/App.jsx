@@ -1,7 +1,10 @@
 import React from 'react';
+import MainHeader from './MainHeader.jsx'
 
-const App = () => (
-  <div>Hello</div>
-)
+const App = () => {
+  return(
+    <MainHeader />
+  )
+}
 
 export default App;
