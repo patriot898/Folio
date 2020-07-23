@@ -1,3 +1,12 @@
 #top-section {
+  height: 480px;
+  background-color: rgba(213, 216, 55, 0.897);
+  background: linear-gradient(54deg,rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
+}
 
+#main-header {
+  background-image: url("headshot.jpg");
+  background-position: 50% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
