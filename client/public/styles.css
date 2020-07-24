@@ -57,7 +57,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
-  /* background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95)); */
+  background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
   width: 100%;
 }
 
