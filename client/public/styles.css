@@ -1,8 +1,11 @@
 body {
   font-weight: 400;
   margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555;
 }
-
 
 #top-section {
   width: 100%;
@@ -14,27 +17,26 @@ body {
   margin: auto;
 }
 
-
 @media (min-width: 1200px) {
-  #top-section {
+  .container {
     max-width: 1140px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  #top-section {
+  .container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #top-section {
+  .container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  #top-section {
+  .container {
     max-width: 540px;
   }
   #avatar-container {
@@ -43,7 +45,7 @@ body {
 }
 
 @media (max-width: 575px) {
-  #top-section {
+  .container {
     max-width: 540px;
   }
   #avatar-container {
@@ -61,12 +63,10 @@ body {
   width: 100%;
 }
 
-
 #avatar-container {
   position: relative;
   float: left;
   padding-right: 45px;
-
 }
 
 #avatar-image {
@@ -117,4 +117,18 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+.white-section {
+  padding: 60px 15px 60px 15px;
+  margin: auto;
+  width: 100%;
+}
+
+.section-title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: Roboto Mono, monospace;
+  font-weight: 500;
 }

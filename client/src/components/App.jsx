@@ -1,9 +1,13 @@
 import React from 'react';
-import MainHeader from './MainHeader.jsx'
+import MainHeader from './MainHeader.jsx';
+import Bio from './Bio.jsx';
 
 const App = () => {
   return(
-    <MainHeader />
+    <div>
+      <MainHeader />
+      <Bio />
+    </div>
   )
 }
 

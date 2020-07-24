@@ -3,7 +3,7 @@ import React from 'react';
 const MainHeader = () => {
   return (
     <header id="main-header">
-      <div id="top-section">
+      <div id="top-section" class="container">
           <div id="avatar-container">
             <img id="avatar-image" src="headshot-avatar-bw.jpg"></img>
           </div>
