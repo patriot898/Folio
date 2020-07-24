@@ -51,16 +51,6 @@ body {
   }
 }
 
-#main-header::before {
-  background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
-  content: "";
-  height: 100%;
-  z-index: 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
 #main-header {
   background-image: url("headshot-avatar-bw.jpg");
   background-position: 50% 10%;
