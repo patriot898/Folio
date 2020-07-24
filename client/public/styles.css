@@ -10,6 +10,8 @@ body {
   left: 0;
   right: 0;
   z-index: 0;
+  box-sizing: inherit;
+  margin: auto;
 }
 
 
@@ -55,24 +57,24 @@ body {
   background-position: 50% 10%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 480px;
+  height: 400px;
   background-color: rgba(213, 216, 55, 0.897);
   background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
   width: 100%;
-  margin: auto;
 }
 
 
 #avatar-container {
   position: relative;
   float: left;
-  padding-right: 15px;
+  padding-right: 45px;
 
 }
 
 #avatar-image {
   position: relative;
   top: 40px;
+  margin-top: 10px;
   object-fit: cover;
   border-radius: 5px;
 }
