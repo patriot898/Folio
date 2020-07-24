@@ -54,7 +54,7 @@ body {
 }
 
 #main-header {
-  background-image: url("headshot-avatar-bw.jpg");
+  /* background-image: url("headshot-avatar-bw.jpg"); */
   background-position: 50% 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -131,4 +131,9 @@ p {
   line-height: 42px;
   font-family: Roboto Mono, monospace;
   font-weight: 500;
+}
+
+.btn-download {
+  background-color: rgba(213, 216, 55, .95);
+  color: white;
 }
