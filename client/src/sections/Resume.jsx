@@ -11,6 +11,7 @@ export default function Resume() {
       me with the communication and management skills absolutely essential to be an
       effective leader and team player.
       </p>
+      <h3 className="title-text small-title">Education</h3>
     </section>
   );
 }
