@@ -1,7 +1,7 @@
 body {
   font-weight: 400;
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
   color: #555;
@@ -78,7 +78,7 @@ body {
 }
 
 #contact-container {
-  font-family: Roboto Mono, monospace;
+  font-family: 'Roboto Mono', monospace;
   float: left;
   clear: right;
   margin-top: 40px;
@@ -129,7 +129,7 @@ p {
 .section-title {
   font-size: 36px;
   line-height: 42px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .svg-container {
@@ -140,11 +140,13 @@ p {
 
 .download-text {
   padding-right: 5px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .title-text {
   margin-bottom: 40px;
-  font-family: Roboto Mono, monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .small-title {
@@ -152,13 +154,54 @@ p {
   line-height: 20px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   color: #999;
+  padding-top: 20px;
 }
 
-.resume-block {}
+.resume-container {
+  width: 66%;
+
+}
+
+.resume-block:before {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: -7px;
+  border: 2px solid rgba(213, 216, 55, .95);
+  content: "";
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.resume-block {
+  position: relative;
+  padding: 0px 0px 40px 25px;
+  border-left: 2px solid rgba(213, 216, 55, .95);
+}
+
+.resume-entry-title {
+  font-family: 'Roboto Mono', monospace;
+  color: rgba(213, 216, 55, .95);
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 20px;
+  padding-bottom: 5px;
+
+
+}
+
+.resume-entry-date {
+  color: #999;
+  font-size: 12px;
+  margin: 0px;
+  line-height: 20px;
+
+}
 
 hr {
-  height: 0px;
   margin: 0;
 }
