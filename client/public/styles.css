@@ -133,4 +133,12 @@ p {
   font-weight: 500;
 }
 
+.svg-container {
+  padding-right: 10px;
+  position: relative;
+  bottom: 2px;
+}
 
+.download-text {
+  padding-right: 5px;
+}
