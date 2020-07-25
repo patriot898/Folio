@@ -8,6 +8,7 @@ const App = () => {
     <div>
       <MainHeader />
       <Bio />
+      <hr></hr>
     </div>
   )
 }
