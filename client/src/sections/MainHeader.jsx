@@ -1,7 +1,6 @@
 import React from 'react';
 
-const MainHeader = () => {
-  return (
+const MainHeader = () => (
     <header id="main-header">
       <div id="top-section" className="container">
           <div id="avatar-container">
@@ -23,7 +22,6 @@ const MainHeader = () => {
           </div>
       </div>
     </header>
-  )
-}
+);
 
 export default MainHeader;

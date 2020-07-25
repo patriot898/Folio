@@ -54,7 +54,7 @@ body {
 }
 
 #main-header {
-  background-image: url("headshot-avatar-bw.jpg");
+  /* background-image: url("headshot-avatar-bw.jpg"); */
   background-position: 50% 10%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,10 +126,8 @@ p {
 }
 
 .section-title {
-  margin-bottom: 40px;
   font-size: 36px;
   line-height: 42px;
-  font-family: Roboto Mono, monospace;
   font-weight: 500;
 }
 
@@ -141,4 +139,22 @@ p {
 
 .download-text {
   padding-right: 5px;
+}
+
+.title-text {
+  margin-bottom: 40px;
+  font-family: Roboto Mono, monospace;
+}
+
+.small-title {
+  font-size: 14px;
+}
+
+.resume-block {
+
+}
+
+hr {
+  height: 0px;
+  margin: 0;
 }
