@@ -46,6 +46,7 @@ body {
 
   .skill-column {
     max-width: 41.666666%;
+    flex: 0 0 41.666666%;
 
   }
 
@@ -228,9 +229,24 @@ hr {
   margin: 0;
 }
 
-.skill-column {
-  width: 100%;
-  border: thin solid black;
-  float: left;
+.skillbox {
+  display: flex;
+  flex-wrap: wrap;
 
 }
+
+.skill-column {
+  width: 100%;
+  margin-right: auto;
+  padding: 0 15px 0 15px;
+  position: relative;
+  min-height: 1px;
+  float: left;
+}
+
+.skill-name {
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+

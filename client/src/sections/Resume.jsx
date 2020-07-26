@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillsBox from '../components/SkillsBox.jsx';
+import SkillBox from '../components/SkillBox.jsx';
 import ResumeTimeline from '../components/ResumeTimeline.jsx';
 import resumeInfo from './resumeInfo.js';
 
@@ -25,7 +25,7 @@ export default function Resume() {
         <h3 className="title-text small-title">Skills</h3>
 
       </div>
-        <SkillsBox skills={resumeInfo.skills} />
+        <SkillBox skills={resumeInfo.skills} />
 
     </section>
   );

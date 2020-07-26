@@ -7,3 +7,11 @@
   color: white;
   background-color: rgba(217, 219, 91, 0.95);
 }
+
+.progress-bar {
+  background-color: rgba(217, 219, 91, 0.95);
+}
+
+.progress {
+  height: 6px;
+}
