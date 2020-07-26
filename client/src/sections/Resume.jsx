@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillsBox from '../components/SkillsBox.jsx';
 
 export default function Resume() {
   return (
