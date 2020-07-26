@@ -16,7 +16,7 @@ export default function Resume() {
         pursuit to become an engineer and build functional applications and websites
         with just a laptop and an internet connection...and I love it!
       </p>
-      <div className="resume-container">
+      <div className="timelines-container">
         {/* Education */}
         <ResumeTimeline title={'Education'} timeline={resumeInfo.educationTimeline} />
         {/* Work Experience */}
@@ -25,6 +25,7 @@ export default function Resume() {
         <h3 className="title-text small-title">Skills</h3>
 
       </div>
+        <SkillsBox skills={resumeInfo.skills} />
 
     </section>
   );

@@ -1,4 +1,17 @@
-const skills = [];
+const skills = [
+  {
+    name: 'JavaScript',
+    level: 80,
+  },
+  {
+    name: 'React.JS',
+    level: 80,
+  },
+  {
+    name: 'HTML',
+    level: 80,
+  },
+];
 const educationTimeline = [
   {
     title: 'Hack Reactor, San Francisco, California',

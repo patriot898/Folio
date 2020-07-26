@@ -4,11 +4,11 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 export default function SkillsBox({ skills }) {
   const firstSkills = [];
   const lastSkills = [];
-  for (let i = 0; i <= skills.length / 2; i += 1) {
+  for (let i = 0; i <= Math.floor(skills.length / 2); i += 1) {
     firstSkills.push(skills[i]);
   }
 
-  for (let j = skills.length / 2 + 1; j < skills.length; j += 1) {
+  for (let j = Math.floor(skills.length / 2 + 1); j < skills.length; j += 1) {
     lastSkills.push(skills[j]);
   }
 
