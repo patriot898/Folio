@@ -19,6 +19,10 @@ export default function ResumeTimeline({ timeline, title }) {
   const entries = [];
   const lastEntry = timeline[timeline.length - 1];
 
+  for (let i = 0; i < timeline.length - 1; i += 1) {
+    entries.push(timeline[i]);
+  }
+
   return (
     <>
       <h3 className="title-text small-title">{title}</h3>

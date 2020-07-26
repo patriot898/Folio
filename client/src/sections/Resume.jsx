@@ -1,5 +1,7 @@
 import React from 'react';
 import SkillsBox from '../components/SkillsBox.jsx';
+import ResumeTimeline from '../components/ResumeTimeline.jsx';
+import resumeInfo from './resumeInfo.js';
 
 export default function Resume() {
   return (
@@ -16,29 +18,9 @@ export default function Resume() {
       </p>
       <div className="resume-container">
         {/* Education */}
-        <h3 className="title-text small-title">Education</h3>
-        <div className="resume-block">
-          <p className="resume-entry-title">Hack Reactor, San Francisco, California</p>
-          <p className="resume-entry-date">2020</p>
-          <p>Full Stack Software Engineering Immersive</p>
-        </div>
-        <div className="resume-block last-block">
-          <p className="resume-entry-title">United States Military Academy, West Point, New York</p>
-          <p className="resume-entry-date">2010 - 2014</p>
-          <p>Bachelor of Science, Electrical Engineering</p>
-        </div>
+        <ResumeTimeline title={'Education'} timeline={resumeInfo.educationTimeline} />
         {/* Work Experience */}
-        <h3 className="title-text small-title">Work Experience</h3>
-        <div className="resume-block">
-          <p className="resume-entry-title">Hack Reactor, San Francisco, California</p>
-          <p className="resume-entry-date">2020</p>
-          <p>Full Stack Software Engineering Immersive</p>
-        </div>
-        <div className="resume-block last-block">
-          <p className="resume-entry-title">United States Military Academy, West Point, New York</p>
-          <p className="resume-entry-date">2010 - 2014</p>
-          <p>Bachelor of Science, Electrical Engineering</p>
-        </div>
+        <ResumeTimeline title={'Work Experience'} timeline={resumeInfo.experienceTimeline} />
         {/* Skills */}
         <h3 className="title-text small-title">Skills</h3>
 
