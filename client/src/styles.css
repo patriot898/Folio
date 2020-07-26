@@ -29,13 +29,14 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 800px) and (max-width: 991px) {
   .container {
-    max-width: 720px;
+    max-width: 800px;
   }
+
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 799px) {
   .container {
     max-width: 540px;
   }
@@ -202,6 +203,16 @@ p {
 
 }
 
+.last-block {
+  padding-bottom: 0px;
+}
+
 hr {
   margin: 0;
+}
+
+.skill-column {
+  border: thin solid black;
+  float: left;
+
 }
