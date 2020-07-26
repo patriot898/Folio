@@ -238,7 +238,7 @@ hr {
 .skill-column {
   width: 100%;
   margin-right: auto;
-  padding: 0 15px 0 15px;
+  padding-right: 15px;
   position: relative;
   min-height: 1px;
   float: left;
@@ -248,5 +248,7 @@ hr {
   font-family: 'Inconsolata', monospace;
   text-transform: uppercase;
   font-size: 14px;
+  margin: 0 0 10px 0;
+  line-height: 20px;
 }
 

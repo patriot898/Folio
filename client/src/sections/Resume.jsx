@@ -5,7 +5,7 @@ import resumeInfo from './resumeInfo.js';
 
 export default function Resume() {
   return (
-    <section className="white-section container">
+    <section className="white-section container" id="resume">
 
       <h2 className="section-title title-text">Resume</h2>
       <p className="general-text">
