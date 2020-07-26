@@ -47,7 +47,10 @@ body {
   .skill-column {
     max-width: 41.666666%;
     flex: 0 0 41.666666%;
+  }
 
+  .card-image-container {
+    max-width: 41.666666%;
   }
 
 }
@@ -252,3 +255,6 @@ hr {
   line-height: 20px;
 }
 
+.card-image-container {
+  width: 100%;
+}
