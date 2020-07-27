@@ -1,13 +1,20 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
 
 export default function ProjectBlock({ project }) {
   return (
-    <Card>
+    <div className="project-card">
       <div className="card-image-container">
-        <Card.Img variant="left" src={project.image} className="card-image" />
-
+        <img src={project.image} className="card-image" />
       </div>
-    </Card>
+      <div className="project-info-container">
+        <p className="project-title">{project.title}</p>
+        <p className="project-description">{project.description}</p>
+        <p className="project-tech">Tech Used:</p>
+        <ul className="tags">
+          {project.tech.map((skill) => <li>{skill}</li>)}
+
+        </ul>
+      </div>
+    </div>
   );
 }
