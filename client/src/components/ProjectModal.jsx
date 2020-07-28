@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
-import Carousel from 'react-bootstrap/Carousel';
+import ModalCarousel from './ModalCarousel.jsx';
 
 export default function ProjectModal({ project, show, handleClose }) {
   return (
@@ -8,7 +8,8 @@ export default function ProjectModal({ project, show, handleClose }) {
       <Modal.Header closeButton />
       <Modal.Body>
         <p className="modal-title">{project.title}</p>
-        <img src={project.image} className="modal-image" />
+        <ModalCarousel images={project.carouselImages} />
+        {/* <img src={project.image} className="modal-image" /> */}
         <p className="project-description">{project.description}</p>
         <ul className="tags">
           <span className="project-tech">Tech Used:</span>
