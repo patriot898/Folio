@@ -1,13 +1,13 @@
 import React from 'react';
 
-const formatEntry = (entry, isLast) => {
+const formatEntry = (entry, index, isLast) => {
   let blockName = 'resume-block';
   if (isLast) {
     blockName += ' last-block';
   }
 
   return (
-    <div className={blockName}>
+    <div className={blockName} key={index} >
       <p className="resume-entry-title">{entry.title}</p>
       <p className="resume-entry-date">{entry.date}</p>
       <p>{entry.description}</p>
@@ -26,8 +26,8 @@ export default function ResumeTimeline({ timeline, title }) {
   return (
     <>
       <h3 className="title-text small-title">{title}</h3>
-      {entries.map((entry) => formatEntry(entry, false))}
-      {formatEntry(lastEntry, true)}
+      {entries.map((entry, idx) => formatEntry(entry, idx, false))}
+      {formatEntry(lastEntry, entries.length, true)}
     </>
   );
 }

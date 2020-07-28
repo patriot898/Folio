@@ -19,7 +19,7 @@ export default function ProjectBlock({ project }) {
           <p className="project-description">{project.description}</p>
           <p className="project-tech">Tech Used:</p>
           <ul className="tags">
-            {project.tech.map((skill) => <li>{skill}</li>)}
+            {project.tech.map((skill, idx) => <li key={idx}>{skill}</li>)}
           </ul>
         </div>
       </div>

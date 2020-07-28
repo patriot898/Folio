@@ -13,14 +13,14 @@ export default function SkillBox({ skills }) {
   }
 
   return (
-    <div class="skillbox">
+    <div className="skillbox">
       <div className="skill-column">
-        {firstSkills.map((skill) => <><p className="skill-name">{skill.name}</p>
-          <ProgressBar now={skill.level} /></>)}
+        {firstSkills.map((skill, idx) => <div key={idx}><p className="skill-name">{skill.name}</p>
+          <ProgressBar now={skill.level} /></div>)}
       </div>
       <div className="skill-column">
-        {lastSkills.map((skill) => <><p className="skill-name">{skill.name}</p>
-          <ProgressBar now={skill.level} /></>)}
+        {lastSkills.map((skill, idx) => <div key={idx}><p className="skill-name">{skill.name}</p>
+          <ProgressBar now={skill.level} /></div>)}
       </div>
     </div>
   );
