@@ -365,6 +365,27 @@ hr {
 
 }
 
+.social-bar {
+  margin-top: 25px;
+}
+
+.fa {
+  font-size: 30px;
+  text-decoration: none!important;
+  color: #555;
+  opacity: 0.5;
+  position: relative;
+  bottom: 0;
+  margin-right: 40px;
+}
+
+.fa:hover {
+  color: #fff;
+  transition: color 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0.9;
+}
+
 /* bootstrap custom css */
 
 .btn-download {
