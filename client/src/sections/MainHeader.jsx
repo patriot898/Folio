@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialBar from '../components/SocialBar.jsx';
 
 const MainHeader = () => (
     <header id="main-header">
@@ -19,6 +20,7 @@ const MainHeader = () => (
               <dt className="contact-term">LOCATION:</dt>
               <dd className="contact-value">San Francisco, CA</dd>
             </dl>
+            <SocialBar />
           </div>
       </div>
     </header>

@@ -143,6 +143,7 @@ body {
 .contact-term {
   font-weight: 700;
   float: left;
+  opacity: 0.4;
 }
 
 .contact-value {
@@ -415,3 +416,4 @@ hr {
   opacity: 0.75;
   transition: color 0.4s;
 }
+
