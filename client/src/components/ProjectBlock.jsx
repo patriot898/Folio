@@ -16,7 +16,7 @@ export default function ProjectBlock({ project }) {
         </div>
         <div className="project-info-container">
           <p className="project-title">{project.title}</p>
-          <p className="project-description">{project.description}</p>
+          <p className="project-description">{project.shortDescription}</p>
           <p className="project-tech">Tech Used:</p>
           <ul className="tags">
             {project.tech.map((skill, idx) => <li key={idx}>{skill}</li>)}

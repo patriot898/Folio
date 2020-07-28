@@ -10,11 +10,13 @@ export default function ProjectModal({ project, show, handleClose }) {
         <p className="modal-title">{project.title}</p>
         <ModalCarousel images={project.carouselImages} />
         {/* <img src={project.image} className="modal-image" /> */}
-        <p className="project-description">{project.description}</p>
-        <ul className="tags">
-          <span className="project-tech">Tech Used:</span>
-          {project.tech.map((skill, idx) => <li key={idx}>{skill}</li>)}
-        </ul>
+        <p className="project-description">{project.longDescription}</p>
+        <div className="modal-tech">
+          <p className="project-tech">Tech Used:</p>
+          <ul className="tags">
+            {project.tech.map((skill, idx) => <li key={idx}>{skill}</li>)}
+          </ul>
+        </div>
       </Modal.Body>
     </Modal>
 
