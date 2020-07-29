@@ -7,6 +7,7 @@ body {
   color: #555;
 }
 
+
 #top-section {
   width: 100%;
   position: absolute;
@@ -15,6 +16,7 @@ body {
   z-index: 0;
   box-sizing: inherit;
   margin: auto;
+  padding-top: 90px;
 }
 
 @media (max-width: 575px) {
@@ -28,7 +30,6 @@ body {
 }
 
 @media (min-width: 576px)
-/*and (max-width: 799px)*/
 
   {
   .container {
@@ -40,7 +41,6 @@ body {
 }
 
 @media (min-width: 800px)
-/*and (max-width: 991px)*/
 
   {
   .container {
@@ -70,7 +70,6 @@ body {
 }
 
 @media (min-width: 992px)
-/*and (max-width: 1199px)*/
 
   {
   .container {
@@ -112,7 +111,7 @@ body {
   background-position: 50% 10%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 490px;
   background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
   width: 100%;
 }
@@ -334,7 +333,7 @@ hr {
 }
 
 .project-tech {
-  font-family: Roboto Mono, monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
@@ -384,6 +383,53 @@ hr {
   transition: color 0.3s;
   transition: opacity 0.3s;
   opacity: 0.9;
+}
+
+.nav-options {
+  padding-left: 0;
+}
+
+.nav-options li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-options a:hover {
+  opacity: 0.7;
+}
+
+.nav-options a {
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  color: #555;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.fixed-menu {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.fixed-menu.scrolled {
+  background-color: white;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,.14);
+}
+
+.menu-container.scrolled {
+  margin-top: 10px;
+}
+
+.menu-container {
+  width: 100%;
+  margin-top: 50px;
+  transition: all 0.6s;
+
 }
 
 /* bootstrap custom css */
