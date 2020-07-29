@@ -7,6 +7,10 @@ body {
   color: #555;
 }
 
+html {
+  scroll-behavior: smooth!important;
+}
+
 
 #top-section {
   width: 100%;
@@ -27,6 +31,14 @@ body {
     display: none;
   }
 
+  .menu {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
 }
 
 @media (min-width: 576px)
@@ -37,6 +49,12 @@ body {
   }
   #avatar-container {
     display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
   }
 }
 
@@ -49,6 +67,15 @@ body {
   #avatar-container {
     display: block;
   }
+
+  .menu {
+    display: block;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
   .skill-column {
     max-width: 41.666666%;
     flex: 0 0 41.666666%;
@@ -75,9 +102,9 @@ body {
   .container {
     max-width: 960px;
   }
-  #avatar-container {
+  /* #avatar-container {
     display: block;
-  }
+  } */
 
   .card-image-container {
     max-width: 41.666666%;
@@ -101,9 +128,9 @@ body {
   .container {
     max-width: 1140px;
   }
-  #avatar-container {
+  /* #avatar-container {
     display: block;
-  }
+  } */
 }
 
 #main-header {
@@ -119,7 +146,7 @@ body {
 #avatar-container {
   position: relative;
   float: left;
-  padding-right: 45px;
+  padding-right: 60px;
 }
 
 #avatar-image {
@@ -135,7 +162,6 @@ body {
   float: left;
   clear: right;
   margin-top: 40px;
-  padding-left: 15px;
   padding-right: 15px;
 }
 
@@ -385,6 +411,20 @@ hr {
   opacity: 0.9;
 }
 
+.fa-bars {
+  opacity: 1!important;
+  width: fit-content;
+  margin-bottom: 10px;
+
+}
+
+.fa-bars:hover {
+  opacity: 0.5!important;
+  color: #555!important;
+  cursor: pointer;
+
+}
+
 .nav-options {
   padding-left: 0;
 }
@@ -395,7 +435,7 @@ hr {
 }
 
 .nav-options a:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .nav-options a {

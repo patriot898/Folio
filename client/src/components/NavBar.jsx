@@ -6,19 +6,22 @@ export default function NavBar() {
     <div className="fixed-menu">
       <div className="container">
         <div className="menu-container">
-          <nav>
-            <ul className="nav-options">
-              <li>
-                <a href="">Hello</a>
-              </li>
-              <li>
-                <a href="">Resume</a>
-              </li>
-              <li>
-                <a href="">Portfolio</a>
-              </li>
-            </ul>
-          </nav>
+          <span className="fa fa-bars" />
+          <div className="menu">
+            <nav>
+              <ul className="nav-options">
+                <li>
+                  <a href="#bio">Hello</a>
+                </li>
+                <li>
+                  <a href="#resume">Resume</a>
+                </li>
+                <li>
+                  <a href="#projects">Portfolio</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </div>
