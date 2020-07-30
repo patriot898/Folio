@@ -24,6 +24,10 @@ const skills = [
     level: 80,
   },
   {
+    name: 'Git',
+    level: 80,
+  },
+  {
     name: 'Amazon Web Services',
     level: 70,
   },

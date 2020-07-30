@@ -9,7 +9,7 @@ const CarouselItem = (image, index) => (
 
 export default function ModalCarousel({ images }) {
   return (
-    <Carousel>
+    <Carousel interval={7000}>
       {images.map((image, index) => CarouselItem(image, index))}
     </Carousel>
   );

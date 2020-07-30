@@ -29,24 +29,18 @@ html {
   #avatar-container {
     display: none;
   }
-
   .menu-nav {
     display: none;
   }
-
   .fa-bars {
     display: block;
   }
-
   .mobile-menu {
     display: block;
   }
-
 }
 
-@media (min-width: 576px)
-
-  {
+@media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
@@ -59,34 +53,27 @@ html {
   .fa-bars {
     display: block;
   }
-
   .mobile-menu {
     display: block;
   }
 }
 
-@media (min-width: 800px)
-
-  {
+@media (min-width: 800px) {
   .container {
     max-width: 800px;
   }
   #avatar-container {
     display: block;
   }
-
   .menu-nav {
     display: block;
   }
-
   .fa-bars {
     display: none;
   }
-
   .mobile-menu {
     display: none!important;
   }
-
   .skill-column {
     max-width: 41.666666%;
     flex: 0 0 41.666666%;
@@ -95,38 +82,29 @@ html {
     max-width: 50%;
     flex: 0 0 50%;
   }
-
   .card-image {
     height: 100%!important;
   }
-
   .project-info-container {
     max-width: 50;
     flex: 0 0 50%;
   }
-
 }
 
-@media (min-width: 992px)
-
-  {
+@media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
-
   .card-image-container {
     max-width: 41.666666%;
     flex: 0 0 41.666666%;
   }
-
   .card-image {
     height: 35vw!important;
   }
-
   .project-card {
     height: 35vw;
   }
-
   .modal-body {
     max-width: 75%!important;
   }
@@ -136,16 +114,25 @@ html {
   .container {
     max-width: 1140px;
   }
+}
 
+#main-header::before {
+  background: linear-gradient(54deg, rgba(213, 216, 55, .80) 34%, hsla(60, 34%, 71%, .90));
+  height: 490px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+  z-index: 0;
 }
 
 #main-header {
-  /* background-image: url("headshot-avatar-bw.jpg"); */
-  background-position: 50% 10%;
+  background-image: url('/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/tech-background.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 490px;
-  background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95));
+  /* background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95)); */
   width: 100%;
 }
 
@@ -321,7 +308,6 @@ hr {
   width: 100%;
   height: 30vw;
   object-fit: cover;
-  object-position: 50% 10%;
   border-radius: calc(0.25rem - 1px);
   border-style: none;
   vertical-align: middle;
@@ -393,7 +379,6 @@ hr {
 
 .modal-tech {
   display: flex;
-
 }
 
 .social-bar {
@@ -421,14 +406,12 @@ hr {
   opacity: 1!important;
   width: fit-content;
   margin-bottom: 10px;
-
 }
 
 .fa-bars:hover {
   opacity: 0.5!important;
   color: #555!important;
   cursor: pointer;
-
 }
 
 .nav-options {
@@ -456,7 +439,7 @@ hr {
   text-decoration: none;
 }
 
-.fixed-menu{
+.fixed-menu {
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -465,7 +448,7 @@ hr {
 
 .fixed-menu.scrolled {
   background-color: white;
-  box-shadow: 0 5px 8px 0 rgba(0,0,0,.14);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .14);
 }
 
 .menu-container.scrolled {
@@ -481,7 +464,6 @@ hr {
 .mobile-menu.active {
   width: 100%;
   height: 100%;
-  transition: all 0.5s;
   top: 0px;
 }
 
@@ -491,9 +473,9 @@ hr {
   top: 50px;
   width: 0;
   height: 0;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0, 0, 0, .8);
   overflow: hidden;
-
+  transition: all 0.5s;
 }
 
 .mobile-nav {
@@ -525,8 +507,6 @@ hr {
   opacity: 0.5;
 }
 
-
-
 .close-mobile-menu {
   padding: 15px 15px 15px 8px;
   margin: 48px 0px 20px 0px;
@@ -541,20 +521,16 @@ hr {
   margin-top: 8px;
   margin-bottom: 60px;
   transition: all 0.6s;
-
 }
 
 .close-mobile-menu:hover {
   cursor: pointer;
 }
 
-
 .right {
   float: right;
   clear: right;
 }
-
-
 
 /* bootstrap custom css */
 
@@ -607,4 +583,3 @@ hr {
   opacity: 0.75;
   transition: color 0.4s;
 }
-
