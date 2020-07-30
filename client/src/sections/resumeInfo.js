@@ -1,15 +1,35 @@
 const skills = [
   {
-    name: 'JavaScript',
+    name: 'JavaScript / Node.js',
+    level: 90,
+  },
+  {
+    name: 'React',
+    level: 90,
+  },
+  {
+    name: 'HTML5 / CSS3',
     level: 80,
   },
   {
-    name: 'React.JS',
+    name: 'Docker',
+    level: 70,
+  },
+  {
+    name: 'MySQL',
     level: 80,
   },
   {
-    name: 'HTML',
+    name: 'MongoDB',
     level: 80,
+  },
+  {
+    name: 'Amazon Web Services',
+    level: 70,
+  },
+  {
+    name: 'Adobe Lightroom / Illustrator',
+    level: 60,
   },
 ];
 const educationTimeline = [

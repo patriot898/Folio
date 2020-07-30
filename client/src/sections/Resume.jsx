@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillBox from '../components/SkillBox.jsx';
 import ResumeTimeline from '../components/ResumeTimeline.jsx';
+// eslint-disable-next-line import/extensions
 import resumeInfo from './resumeInfo.js';
 
 export default function Resume() {

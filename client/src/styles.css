@@ -460,6 +460,7 @@ hr {
   position: fixed;
   z-index: 2;
   width: 100%;
+  transition: all 0.6s;
 }
 
 .fixed-menu.scrolled {
@@ -497,6 +498,10 @@ hr {
 
 .mobile-nav {
   text-align: center;
+}
+
+.mobile-nav ul {
+  padding-inline-start: 0px;
 }
 
 .mobile-nav li {
@@ -544,6 +549,10 @@ hr {
 }
 
 
+.right {
+  float: right;
+  clear: right;
+}
 
 
 
