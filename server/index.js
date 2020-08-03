@@ -1,5 +1,7 @@
-const express = require('express');
-const path = require('path');
+import express from 'express';
+import path from 'path';
+import ReactDOMServer from'react-dom/server';
+// import App from '../../client/src/components/_App.jsx';
 
 const app = express();
 
