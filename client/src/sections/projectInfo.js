@@ -1,19 +1,23 @@
 const projects = [
   {
     title: 'PlateThis Reservation Calendar',
-    image: '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/Reservation Calendar.png',
-    carouselImages: ['/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/Reservation Calendar.png', '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/reservation2.png', '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/res-cal-formatted.gif'],
-    shortDescription: 'Here is the description. Here is the description. Here is the description. Here is the description. Here is the description. Here is the description',
-    longDescription: 'Here is the more detailed description.',
+    image: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/Reservation+Calendar.png',
+    carouselImages: ['https://folio-pics-kmr.s3-us-west-1.amazonaws.com/Reservation+Calendar.png', 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/reservation2.png', 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/res-cal-formatted.gif'],
+    shortDescription: 'A simple, modern reservation calendar made for a restaurant reservation website built using the microservice architecture for simplified deployability and maintainability.',
+    longDescription: 'A simple, modern reservation calendar made for a restaurant reservation website built using the microservice architecture for simplified deployability and maintainability. Uses a custom-built date management library similar to Moment.js for greater control over date parsing and formatting. Easily deployable to AWS or similar cloud hosting services through Docker containerization. Uses GZIP text compression and Server-Side Rendering for optimal content delivery and SEO best practices.',
     tech: ['React', 'Node.js', 'Docker', 'Express', 'MongoDB', 'jQuery', 'Styled Components', 'Webpack'],
+    hyperlink: '',
+    shortlink: 'www.github.com',
   },
   {
     title: 'Imgur Client Sales Stickers',
-    image: '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/imgur-giraffe.png',
-    carouselImages: ['/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/giraffe.png', '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/disney.png', '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/ihop.png', '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/jack.png', '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/kfc.png', '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/link.png'],
-    shortDescription: 'Here is the description',
-    longDescription: 'Here is the more detailed description.',
+    image: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/imgur-giraffe.png',
+    carouselImages: ['https://folio-pics-kmr.s3-us-west-1.amazonaws.com/giraffe.png', 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/disney.png', 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/ihop.png', 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/jack.png', 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/kfc.png', 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/link.png'],
+    shortDescription: 'A collection of fun and goofy stickers created for sales representatives used to build rapport with current and prospective clients as a sales and marketing fellow with Imgur.',
+    longDescription: 'A collection of goofy stickers created for sales representatives to give to current and prospective clients during the fellowship with Imgur. Each sticker represents an "Imgurized" version of a brand\'s mascot. Brand images were converted to vectors using the image trace functionality through Adobe Illustrator before the incorporation of Imgur brand assets, then exported to Sticker Mule for printing as die cut stickers. These stickers assisted Imgur sales reps in building rapport with clients and closing sales! \n \n **Stickers are not for resale or personal financial gain.',
     tech: ['Adobe Illustrator'],
+    hyperlink: '',
+    shortlink: '',
   },
 ];
 

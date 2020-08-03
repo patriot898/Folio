@@ -21,6 +21,9 @@ export default function ProjectBlock({ project }) {
           <ul className="tags">
             {project.tech.map((skill, idx) => <li key={idx}>{skill}</li>)}
           </ul>
+          <span className="card-link-wrapper">
+            <a href={project.hyperlink} className="link">{project.shortlink}</a>
+          </span>
         </div>
       </div>
       <ProjectModal project={project} show={show} handleClose={handleClose} />

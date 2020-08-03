@@ -99,11 +99,17 @@ html {
     max-width: 41.666666%;
     flex: 0 0 41.666666%;
   }
+
+  .project-info-container {
+    max-width: 58.333333%;
+    flex: 0 0 58.333333%;
+  }
+
   .card-image {
-    height: 35vw!important;
+    /* height: 20vw!important; */
   }
   .project-card {
-    height: 35vw;
+    /* height: 30vw; */
   }
   .modal-body {
     max-width: 75%!important;
@@ -117,7 +123,7 @@ html {
 }
 
 #main-header::before {
-  background: linear-gradient(54deg, rgba(213, 216, 55, .80) 34%, hsla(60, 34%, 71%, .90));
+  background: linear-gradient(54deg, rgba(213, 216, 55, .80) 34%, hsla(60, 34%, 71%, .80));
   height: 490px;
   left: 0;
   right: 0;
@@ -127,12 +133,11 @@ html {
 }
 
 #main-header {
-  background-image: url('/Users/kieferragay/Documents/Personal_Projects/Folio/client/public/tech-background.jpg');
+  background-image: url('https://folio-pics-kmr.s3-us-west-1.amazonaws.com/tech-background.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 490px;
-  /* background: linear-gradient(54deg, rgba(213, 216, 55, .95) 34%, hsla(60, 34%, 71%, .95)); */
   width: 100%;
 }
 
@@ -161,7 +166,7 @@ html {
 .contact-term {
   font-weight: 700;
   float: left;
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
 .contact-value {
@@ -317,6 +322,7 @@ hr {
   width: 100%;
   padding: 50px 50px 40px 30px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .project-card {
@@ -329,6 +335,26 @@ hr {
   margin-bottom: 40px;
 }
 
+.card-link-wrapper {
+  float: right;
+  margin-top: 50px;
+}
+
+.modal-link-wrapper {
+
+}
+
+.link {
+  color: rgba(213, 216, 55, .95);
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.link:hover {
+  color: rgba(213, 216, 55, .95);
+}
+
 .project-card:hover {
   cursor: pointer;
   box-shadow: 0 1px 31px rgba(0, 0, 0, .09);
@@ -337,7 +363,7 @@ hr {
 .project-title {
   font-size: 18px;
   line-height: 30px;
-  font-family: Roboto Mono, monospace;
+  font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
   margin-bottom: 15px;
   margin-top: 0px;
@@ -347,7 +373,7 @@ hr {
 .project-description {
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 .project-tech {
@@ -379,6 +405,7 @@ hr {
 
 .modal-tech {
   display: flex;
+  margin-top: 40px;
 }
 
 .social-bar {
@@ -389,7 +416,7 @@ hr {
   font-size: 30px;
   text-decoration: none!important;
   color: #555;
-  opacity: 0.5;
+  opacity: 0.6;
   position: relative;
   bottom: 0;
   margin-right: 40px;
@@ -531,6 +558,12 @@ hr {
   float: right;
   clear: right;
 }
+
+.bottom-marg {
+  margin-bottom: 30px;
+}
+
+
 
 /* bootstrap custom css */
 

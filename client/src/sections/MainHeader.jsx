@@ -5,7 +5,7 @@ const MainHeader = () => (
     <header id="main-header">
       <div id="top-section" className="container">
           <div id="avatar-container">
-            <img id="avatar-image" src="headshot-avatar-bw.jpg"></img>
+            <img id="avatar-image" src="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/headshot-avatar-bw.jpg"></img>
           </div>
           <div id="contact-container">
             <p className="personal-name">Kiefer Ragay</p>

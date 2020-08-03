@@ -17,11 +17,11 @@ const skills = [
   },
   {
     name: 'MySQL',
-    level: 80,
+    level: 70,
   },
   {
     name: 'MongoDB',
-    level: 80,
+    level: 70,
   },
   {
     name: 'Git',
@@ -57,7 +57,7 @@ const experienceTimeline = [
   },
   {
     title: 'United States Army',
-    date: '2014-2019',
+    date: '2014 - 2019',
     description: 'Signal Officer',
   },
 ];
