@@ -8,4 +8,4 @@ import './listeners.js';
 
 // convert to hydrate upon implementing SSR
 // eslint-disable-next-line no-undef
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.hydrate(<App />, document.getElementById('app'));

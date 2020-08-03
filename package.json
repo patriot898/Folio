@@ -5,10 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "webpack -p --watch",
     "compile-dev": "webpack -d --watch",
-    "build-server": "babel ./server/index.js --out-file ./server/index-compiled.js",
-    "start-dev": "npm run build-server && nodemon ./server/index-compiled.js",
-    "start": "npm run build-server && node ./server/index-compiled.js"
+    "babel-server": "babel ./server/index.js --out-file ./server/index-compiled.js",
+    "build-server-dev": "webpack --config webpack.server.js --mode=development -w",
+    "build-server": "webpack --config webpack.server.js -w",
+    "start-dev": "nodemon ./server/index-compiled.js",
+    "start": "node .server/server-compiled.js"
   },
   "repository": {
     "type": "git",
@@ -39,7 +42,6 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "babel-preset-node8": "^1.2.0",
     "bootstrap": "^4.5.0",
     "dotenv": "^8.2.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -47,6 +49,7 @@
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "webpack-node-externals": "^2.5.0"
   }
 }
