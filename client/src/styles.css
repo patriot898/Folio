@@ -105,12 +105,13 @@ html {
     flex: 0 0 58.333333%;
   }
 
-  .card-image {
-    /* height: 20vw!important; */
+  /* .card-image {
+     height: 20vw!important;
   }
   .project-card {
-    /* height: 30vw; */
-  }
+     height: 30vw;
+  } */
+
   .modal-body {
     max-width: 75%!important;
   }
@@ -340,9 +341,9 @@ hr {
   margin-top: 50px;
 }
 
-.modal-link-wrapper {
+/* .modal-link-wrapper {
 
-}
+} */
 
 .link {
   color: rgba(213, 216, 55, .95);
