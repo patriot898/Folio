@@ -12,7 +12,11 @@ export default function ProjectBlock({ project }) {
       <div className="project-card" onClick={handleShow}>
 
         <div className="card-image-container">
-          <img src={project.image} className="card-image" />
+          <picture>
+            <source srcSet={project.image.webp} type="image/webp" className="card-image" />
+            <source srcSet={project.image.jpeg} type="image/jpeg" className="card-image" />
+            <img src={project.image.jpeg} className="card-image" />
+          </picture>
         </div>
         <div className="project-info-container">
           <p className="project-title">{project.title}</p>

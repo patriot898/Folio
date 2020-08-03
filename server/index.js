@@ -1,8 +1,11 @@
 import express from 'express';
 import path from 'path';
 import fs from 'fs';
+import expressStaticGzip from 'express-static-gzip';
+
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
+
 import App from '../client/src/components/_App.jsx';
 
 const app = express();
@@ -16,7 +19,7 @@ const publicHTML = path.resolve(publicFolder, 'index.html');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(publicFolder));
+app.use('/', expressStaticGzip(publicFolder));
 
 app.listen(port, () => {
   console.log(`Connected and listening on ${port}!`);

@@ -1,5 +1,6 @@
 node_modules
 bundle.js
+*.gz
 headshot-avatar.jpg
 headshot-avatar-bw.jpg
 headshot-long.jpg
