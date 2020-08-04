@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function DownloadButton() {
   return (
-    <Button href="resume.pdf" download="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/resume.pdf" variant="download" size="large">
+    <Button href="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/resume.pdf" download="resume-kiefer-ragay.pdf" variant="download" size="large">
       <div>
         <span className="svg-container">
           <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-download hover-download" width="20" height="20" viewBox="0 0 28 28" strokeWidth="3" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
