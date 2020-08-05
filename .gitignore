@@ -9,3 +9,4 @@ headshot-avatar.jpg
 *.gif
 *.jpg
 index-compiled.js
+*.env

@@ -6,7 +6,7 @@ export default function Bio() {
 
     <section id="bio" className="white-section container">
       <h2 id="bio-header" className="section-title title-text">Hello</h2>
-      <p className="general-text">I am an Army Signal Corps Veteran turned Full Stack Software Engineer. I love developing robust and modern web and mobile applications while translating design and theory to practice. My past experience as a military officer imbued me with the communication and management skills absolutely essential to be an effective leader and team player. </p>
+      <p className="general-text">Army Signal Corps Veteran turned Full Stack Software Engineer. I develop modern and robust web and mobile applications while translating design and theory to practice. My past experience as a military officer taught me the interpersonal communication and management skills absolutely essential to be an effective leader and collaborator. Combined with a natural inclination towards technology, I make an effective player on any tech team.</p>
       <DownloadButton />
 
     </section>

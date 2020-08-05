@@ -38,27 +38,37 @@ const skills = [
 ];
 const educationTimeline = [
   {
-    title: 'Hack Reactor, San Francisco, California',
+    org: 'Hack Reactor, San Francisco, California',
     date: '2020',
-    description: 'Full Stack Software Engineering Immersive',
+    title: 'Full Stack Software Engineering Immersive',
   },
   {
-    title: 'United States Military Academy, West Point, New York',
+    org: 'United States Military Academy, West Point, New York',
     date: '2010 - 2014',
-    description: 'Bachelor of Science, Electrical Engineering',
+    title: 'Bachelor of Science, Electrical Engineering',
   },
 ];
 
 const experienceTimeline = [
   {
-    title: 'Imgur',
+    org: 'Imgur, San Francisco, California',
     date: '2019',
-    description: 'Sales & Marketing Intern',
+    title: 'Sales & Marketing Fellow',
   },
   {
-    title: 'United States Army',
-    date: '2014 - 2019',
-    description: 'Signal Officer',
+    org: '3rd Battalion, 6th Field Artillery Regiment (USA), Fort Drum, New York',
+    date: '2018 - 2019',
+    title: 'Director of Information Technology',
+  },
+  {
+    org: '504th Brigade Signal Company (USA), Baumholder, Germany',
+    date: '2015 - 2017',
+    title: 'Information Technology Operations Manager',
+  },
+  {
+    org: '16th Special Troops Battalion (USA), Baumholder, Germany',
+    date: '2014 - 2015',
+    title: 'Logistics Operations Manager',
   },
 ];
 

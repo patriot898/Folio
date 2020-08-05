@@ -8,7 +8,7 @@ const MainHeader = () => (
         <picture>
           <source srcSet="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/headshot-avatar-bw.webp" type="image/webp" />
           <source srcSet="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/headshot-avatar-bw.jpg" type="image/jpeg" />
-          <img id="avatar-image" src="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/headshot-avatar-bw.jpg" alt="kiefer-ragay"></img>
+          <img id="avatar-image" src="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/headshot-avatar-bw.jpg" alt="kiefer-ragay" width="280" height="380" />
         </picture>
       </div>
       <div id="contact-container">

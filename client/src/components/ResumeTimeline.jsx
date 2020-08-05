@@ -8,9 +8,9 @@ const formatEntry = (entry, index, isLast) => {
 
   return (
     <div className={blockName} key={index} >
-      <p className="resume-entry-title">{entry.title}</p>
+      <p className="resume-entry-org">{entry.org}</p>
       <p className="resume-entry-date">{entry.date}</p>
-      <p>{entry.description}</p>
+      <p><span className="resume-entry-title">{entry.title} </span>{entry.description}</p>
     </div>
   );
 };

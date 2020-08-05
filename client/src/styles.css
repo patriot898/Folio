@@ -38,6 +38,9 @@ html {
   .mobile-menu {
     display: block;
   }
+  .contact-table {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -55,6 +58,9 @@ html {
   }
   .mobile-menu {
     display: block;
+  }
+  .contact-table {
+    font-size: 14px;
   }
 }
 
@@ -88,6 +94,9 @@ html {
   .project-info-container {
     max-width: 50;
     flex: 0 0 50%;
+  }
+  .contact-table {
+    font-size: 18px;
   }
 }
 
@@ -266,7 +275,7 @@ p {
   border-left: 2px solid rgba(213, 216, 55, .95);
 }
 
-.resume-entry-title {
+.resume-entry-org {
   font-family: 'Roboto Mono', monospace;
   color: rgba(213, 216, 55, .95);
   padding-bottom: 0px;
@@ -282,6 +291,11 @@ p {
   font-size: 12px;
   margin: 0px;
   line-height: 20px;
+}
+
+.resume-entry-title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
 }
 
 .last-block {

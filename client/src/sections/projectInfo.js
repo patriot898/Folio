@@ -26,7 +26,37 @@ const projects = [
     shortDescription: 'A simple, modern reservation calendar made for a restaurant reservation website built using the microservice architecture for simplified deployability and maintainability.',
     longDescription: 'A simple, modern reservation calendar made for a restaurant reservation website built using the microservice architecture for simplified deployability and maintainability. Uses a custom-built date management library similar to Moment.js for greater control over date parsing and formatting. Easily deployable to AWS or similar cloud hosting services through Docker containerization. Uses GZIP text compression and Server-Side Rendering for optimal content delivery and SEO best practices.',
     tech: ['React', 'Node.js', 'Docker', 'Express', 'MongoDB', 'jQuery', 'Styled Components', 'Webpack'],
-    hyperlink: '',
+    hyperlink: 'https://github.com/patriot898/plateThis-reservations',
+    shortlink: 'www.github.com',
+  },
+  {
+    title: 'BlockBuyer Image Gallery',
+    image: {
+      webp: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/gallery.webp',
+      jpeg: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/gallery.jpg',
+      alt: 'blockbuyer image gallery',
+    },
+    carouselImages: [
+      {
+        webp: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/gallery.webp',
+        jpeg: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/gallery.jpg',
+        alt: 'blockbuyer image gallery',
+      },
+      {
+        webp: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/loader.webp',
+        jpeg: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/loader.jpg',
+        alt: 'loader.io stress testing',
+      },
+      {
+        webp: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/newrelic.webp',
+        jpeg: 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com/newrelic.jpg',
+        alt: 'new relic stress testing',
+      },
+    ],
+    shortDescription: 'An image gallery microservice for a toy purchasing website with a backend scaled to handle over 1000 user requests per second using minimal network resources.',
+    longDescription: 'An image gallery microservice for a toy purchasing website with a backend scaled to handle over 1000 user requests per second on a backend containing over 10 million product records in a MongoDB database. Employs New Relic, Loader.io, and K6 to analyze performance and assess optimizations for database queries and resource utilization. Horizontally scaled to multiple AWS EC2 instances and incorporates Redis caching for high-demand requests.',
+    tech: ['MongoDB', 'Node.js', 'React', 'Loader.io', 'New Relic', 'K6', 'AWS', 'Express', 'Redis'],
+    hyperlink: 'https://github.com/patriot898/Gallery',
     shortlink: 'www.github.com',
   },
   {

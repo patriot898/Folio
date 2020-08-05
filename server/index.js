@@ -2,18 +2,21 @@ import express from 'express';
 import path from 'path';
 import fs from 'fs';
 import expressStaticGzip from 'express-static-gzip';
+import dotenv from 'dotenv';
 
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
 import App from '../client/src/components/_App.jsx';
 
+dotenv.config();
+
 const app = express();
 const reactApp = ReactDOMServer.renderToString(<App />);
 
-const port = 3000;
+const port = process.env.SERVER_PORT || 3000;
 
-const publicFolder = '/Users/kieferragay/Documents/Personal_Projects/Folio/client/public';
+const publicFolder = process.env.PUBLIC_DIRECTORY || path.resolve('../', 'client', 'public');
 // const publicFolder = path.resolve(__dirname, 'client', 'public'); // for use without es6 comp
 const publicHTML = path.resolve(publicFolder, 'index.html');
 

@@ -6,7 +6,7 @@ const CarouselImage = (image, index) => (
     <picture>
       <source srcSet={image.webp} type="image/webp" className="modal-image" />
       <source srcSet={image.jpeg} type="image/jpeg" className="modal-image" />
-      <img src={image.jpeg} className="modal-image" alt={image.alt} />
+      <img src={image.jpeg} className="modal-image" alt={image.alt} width="600" height="600" />
     </picture>
   </Carousel.Item>
 );
