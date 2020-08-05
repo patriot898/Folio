@@ -12,6 +12,7 @@ const App = () => (
       <Bio />
       <hr></hr>
       <Resume />
+      <hr></hr>
       <Projects />
     </div>
 );

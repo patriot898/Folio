@@ -12,14 +12,15 @@ export default function Resume() {
       <p className="general-text">
         Before enrolling in a military academy to secure an engineering
         degree, I had no clue how oriented the role as an officer would be
-        to project management and leadership! Following the completion of
-        my military service obligation, I chose to continue my pursuit
+        to project management and leadership with limited hands-on
+        engineering. Following the completion of my military service
+        obligation, I chose to continue my pursuit
         to become a full-fledged engineer and build functional
         applications and websites. With just a laptop and a stable
-        internet connection, a software engineer has all the tools he
-        needs to build applications that can improve the quality of
-        life of those around him. No expensive lab or equipment
-        necessary!
+        internet connection, I believe a software engineer has all the
+        tools he or she needs to learn and build applications that can
+        improve the quality of life of those around them. No expensive lab
+        or equipment necessary!
       </p>
       <div className="timelines-container">
         {/* Education */}
@@ -27,11 +28,9 @@ export default function Resume() {
         {/* Work Experience */}
         <ResumeTimeline title={'Work Experience'} timeline={resumeInfo.experienceTimeline} />
         {/* Skills */}
-        <h3 className="title-text small-title">Skills</h3>
-
       </div>
+      <h3 className="title-text small-title">Skills</h3>
       <SkillBox skills={resumeInfo.skills} />
-
     </section>
   );
 }

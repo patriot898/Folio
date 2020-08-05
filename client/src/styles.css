@@ -299,7 +299,8 @@ p {
 }
 
 .last-block {
-  padding-bottom: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 hr {
