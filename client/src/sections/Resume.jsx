@@ -10,10 +10,10 @@ export default function Resume() {
 
       <h2 className="section-title title-text">Resume</h2>
       <p className="general-text">
-        Before enrolling in a military academy to secure an engineering
-        degree, I had no clue how oriented the role as an officer would be
-        to project management and leadership with limited hands-on
-        engineering. Following the completion of my military service
+      Before enrolling in a military academy to secure an engineering
+      degree, I had no clue that the officer role would be less about
+      hands-on engineering and more about management and leadership skills.
+      Following the completion of my military service
         obligation, I chose to continue my pursuit
         to become a full-fledged engineer and build functional
         applications and websites. With just a laptop and a stable

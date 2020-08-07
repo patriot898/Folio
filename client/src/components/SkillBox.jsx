@@ -18,7 +18,7 @@ export default function SkillBox({ skills }) {
         {firstSkills.map((skill, idx) => <div key={idx}>
           <p className="skill-name">
             <span>{skill.name}</span>
-            <span className="right">{skill.level}%</span>
+            {/* <span className="right">{skill.level}%</span> */}
           </p>
           <ProgressBar now={skill.level} />
         </div>)}
@@ -28,7 +28,7 @@ export default function SkillBox({ skills }) {
         {lastSkills.map((skill, idx) => <div key={idx}>
           <p className="skill-name">
             <span>{skill.name}</span>
-            <span className="right">{skill.level}%</span>
+            {/* <span className="right">{skill.level}%</span> */}
           </p>
           <ProgressBar now={skill.level} />
         </div>)}

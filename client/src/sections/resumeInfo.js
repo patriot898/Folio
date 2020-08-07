@@ -9,31 +9,31 @@ const skills = [
   },
   {
     name: 'HTML5 / CSS3',
-    level: 80,
+    level: 85,
   },
   {
     name: 'Docker',
-    level: 70,
-  },
-  {
-    name: 'MySQL',
-    level: 70,
-  },
-  {
-    name: 'MongoDB',
-    level: 70,
-  },
-  {
-    name: 'Git',
     level: 80,
   },
   {
+    name: 'MySQL',
+    level: 80,
+  },
+  {
+    name: 'MongoDB',
+    level: 80,
+  },
+  {
+    name: 'Git',
+    level: 85,
+  },
+  {
     name: 'Amazon Web Services',
-    level: 70,
+    level: 75,
   },
   {
     name: 'Adobe Lightroom / Illustrator',
-    level: 60,
+    level: 70,
   },
 ];
 const educationTimeline = [

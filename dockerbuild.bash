@@ -1,0 +1,1 @@
+docker build -t folio . && docker tag folio kiefer898/folio:latest && docker push kiefer898/folio
