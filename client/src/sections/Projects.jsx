@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectBlock from '../components/ProjectBlock.jsx';
 // eslint-disable-next-line import/extensions
-import projects from './projectInfo.js';
+import projects from '../site_info/projectInfo.js';
 
 export default function Projects() {
   return (
