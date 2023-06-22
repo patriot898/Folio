@@ -13,9 +13,9 @@ export default function ProjectBlock({ project }) {
 
         <div className="card-image-container">
           <picture>
-            <source srcSet={project.image.webp} type="image/webp" className="card-image" />
-            <source srcSet={project.image.jpeg} type="image/jpeg" className="card-image" />
-            <img src={project.image.jpeg} className="card-image" alt={project.image.alt} width="600" height="600"/>
+            <source srcSet={project.image.primary_path} type="image/webp" className="card-image" />
+            <source srcSet={project.image.secondary_path} type="image/jpeg" className="card-image" />
+            <img src={project.image.secondary_path} className="card-image" alt={project.image.alt} width="600" height="600"/>
           </picture>
         </div>
         <div className="project-info-container">

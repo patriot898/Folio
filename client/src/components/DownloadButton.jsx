@@ -1,9 +1,10 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import { FILE_LOCATIONS } from '../site_info/constants';
 
 export default function DownloadButton() {
   return (
-    <Button href="https://folio-pics-kmr.s3-us-west-1.amazonaws.com/resume.pdf" download="resume-kiefer-ragay.pdf" variant="download" size="large">
+    <Button href={FILE_LOCATIONS.RESUME} download="resume-kiefer-ragay.pdf" variant="download" size="large">
       <div>
         <span className="svg-container">
           <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-download hover-download" width="20" height="20" viewBox="0 0 28 28" strokeWidth="3" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
