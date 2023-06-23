@@ -11,7 +11,7 @@
     "build-server-dev": "webpack --config webpack.server.js --mode=development -w",
     "build-server": "webpack --config webpack.server.js -w",
     "start-dev": "nodemon ./server/index-compiled.js",
-    "start": "node .server/server-compiled.js"
+    "start": "node ./server/index-compiled.js"
   },
   "repository": {
     "type": "git",

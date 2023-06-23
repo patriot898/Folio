@@ -151,11 +151,11 @@ html {
 }
 
 .no-webp #main-header {
-  background-image: url('https://folio-pics-kmr.s3-us-west-1.amazonaws.com/tech-background.jpg');
+  background-image: url('https://kieferfolio.s3.us-west-2.amazonaws.com/FolioFiles/tech-background.jpg');
 }
 
 .webp #main-header {
-  background-image: url('https://folio-pics-kmr.s3-us-west-1.amazonaws.com/tech-background.webp');
+  background-image: url('https://kieferfolio.s3.us-west-2.amazonaws.com/FolioFiles/tech-background.webp');
 }
 
 #avatar-container {
