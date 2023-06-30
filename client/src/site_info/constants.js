@@ -1,4 +1,4 @@
-export const S3_LOCATION = 'https://folio-pics-kmr.s3-us-west-1.amazonaws.com';
+export const S3_LOCATION = 'https://kieferfolio.s3.us-west-2.amazonaws.com/FolioFiles';
 
 export const FILE_LOCATIONS = {
   RESUME: `${S3_LOCATION}/resume.pdf`,
