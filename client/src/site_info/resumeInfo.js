@@ -1,41 +1,3 @@
-const skills = [
-  {
-    name: 'JavaScript / Node.js',
-    level: 90,
-  },
-  {
-    name: 'React',
-    level: 90,
-  },
-  {
-    name: 'HTML5 / CSS3',
-    level: 85,
-  },
-  {
-    name: 'Docker',
-    level: 80,
-  },
-  {
-    name: 'MySQL',
-    level: 80,
-  },
-  {
-    name: 'MongoDB',
-    level: 80,
-  },
-  {
-    name: 'Git',
-    level: 85,
-  },
-  {
-    name: 'Amazon Web Services',
-    level: 75,
-  },
-  {
-    name: 'Adobe Lightroom / Illustrator',
-    level: 70,
-  },
-];
 const educationTimeline = [
   {
     org: 'Hack Reactor, San Francisco, California',
@@ -72,4 +34,4 @@ const experienceTimeline = [
   },
 ];
 
-export default { skills, educationTimeline, experienceTimeline };
+export default { educationTimeline, experienceTimeline };

@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillBox from '../components/SkillBox.jsx';
 import ResumeTimeline from '../components/ResumeTimeline.jsx';
 // eslint-disable-next-line import/extensions
 import resumeInfo from '../site_info/resumeInfo.js';
@@ -27,10 +26,7 @@ export default function Resume() {
         <ResumeTimeline title={'Education'} timeline={resumeInfo.educationTimeline} />
         {/* Work Experience */}
         <ResumeTimeline title={'Work Experience'} timeline={resumeInfo.experienceTimeline} />
-        {/* Skills */}
       </div>
-      <h3 className="title-text small-title">Skills</h3>
-      <SkillBox skills={resumeInfo.skills} />
     </section>
   );
 }
