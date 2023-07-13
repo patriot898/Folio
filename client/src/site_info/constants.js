@@ -23,6 +23,9 @@ export const IMAGE_BASE_LOCATIONS = {
   IMGUR_JACK: `${S3_LOCATION}/jack`,
   IMGUR_KFC: `${S3_LOCATION}/kfc`,
   IMGUR_LINK: `${S3_LOCATION}/link`,
+  ZHL_MORTGAGE_CALC: `${S3_LOCATION}/zhl-mortgage-calc`,
+  ZHL_PREQUALIFY: `${S3_LOCATION}/zhl-prequalify`,
+  ZHL_WEBSITE: `${S3_LOCATION}/zhl-website`,
 };
 
 export const SOCIAL_LINKS = {
@@ -30,10 +33,11 @@ export const SOCIAL_LINKS = {
   LINKED_IN: 'https://www.linkedin.com/in/kiefer-ragay/',
 };
 
-export const REPO_LINKS = {
+export const PROJECT_LINKS = {
   GALLERY: `${SOCIAL_LINKS.GITHUB}/Gallery`,
   FOLIO: `${SOCIAL_LINKS.GITHUB}/Folio`,
   RESERVATIONS: `${SOCIAL_LINKS.GITHUB}/plateThis-reservations`,
+  ZHL: 'https://zillowhomeloans.com/',
 };
 
 export const JOB_LOCATION = 'Seattle, WA';

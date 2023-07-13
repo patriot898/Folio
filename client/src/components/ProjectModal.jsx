@@ -9,7 +9,6 @@ export default function ProjectModal({ project, show, handleClose }) {
       <Modal.Body>
         <p className="modal-title">{project.title}</p>
         <ModalCarousel images={project.carouselImages} />
-        {/* <img src={project.image} className="modal-image" /> */}
         <p className="project-description">{project.longDescription}</p>
           <div className="modal-link-wrapper">
             <a href={project.hyperlink} className="link">{project.shortlink}</a>

@@ -13,6 +13,11 @@ const educationTimeline = [
 
 const experienceTimeline = [
   {
+    org: 'Zillow, Seattle, Washington',
+    date: '2020 - 2023',
+    title: 'Software Development Engineer',
+  },
+  {
     org: 'Imgur, San Francisco, California',
     date: '2019',
     title: 'Sales & Marketing Fellow',

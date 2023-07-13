@@ -1,4 +1,4 @@
-import { IMAGE_BASE_LOCATIONS, REPO_LINKS } from './constants';
+import { IMAGE_BASE_LOCATIONS, PROJECT_LINKS } from './constants';
 
 const {
   RESERVATION_CALENDAR_1,
@@ -18,15 +18,49 @@ const {
   IMGUR_JACK,
   IMGUR_KFC,
   IMGUR_LINK,
+  ZHL_MORTGAGE_CALC,
+  ZHL_PREQUALIFY,
+  ZHL_WEBSITE,
 } = IMAGE_BASE_LOCATIONS;
 
 const {
   GALLERY,
   FOLIO,
   RESERVATIONS,
-} = REPO_LINKS;
+  ZHL,
+} = PROJECT_LINKS;
 
 const projects = [
+  {
+    title: 'Zillow Home Loans',
+    image: {
+      primary_path: `${ZHL_WEBSITE}.webp`,
+      secondary_path: `${ZHL_WEBSITE}.jpg`,
+      alt: 'zillow home loans',
+    },
+    carouselImages: [
+      {
+        primary_path: `${ZHL_WEBSITE}.webp`,
+        secondary_path: `${ZHL_WEBSITE}.jpg`,
+        alt: 'zhl landing page',
+      },
+      {
+        primary_path: `${ZHL_MORTGAGE_CALC}.webp`,
+        secondary_path: `${ZHL_MORTGAGE_CALC}.jpg`,
+        alt: 'zhl landing page',
+      },
+      {
+        primary_path: `${ZHL_PREQUALIFY}.webp`,
+        secondary_path: `${ZHL_PREQUALIFY}.jpg`,
+        alt: 'zhl loan prequalification flow',
+      },
+    ],
+    shortDescription: 'A collection of projects ranging from customer facing web flows for acquiring a home loan and internal tools for filling out the Uniform Residential Loan Application (URLA). Not all projects will be shown due to legal agreements.',
+    longDescription: 'Projects including the prequalification interface on the Zillow Home Loans public website, internal URLA tools, Mortgage Calculator, and other prototype full stack projects. Breadth included UI and API development, 100% unit testing, infrastructure management, and dev ops support across all projects.',
+    tech: ['React', 'Redux', 'GraphQL', 'FastAPI', 'MySQL', 'AWS', 'Styled Components'],
+    hyperlink: ZHL,
+    shortlink: 'www.zillowhomeloans.com',
+  },
   {
     title: 'PlateThis Reservation Calendar',
     image: {

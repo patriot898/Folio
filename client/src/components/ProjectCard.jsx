@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ProjectModal from './ProjectModal.jsx';
 
-export default function ProjectBlock({ project }) {
+export default function ProjectCard({ project }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -25,9 +25,6 @@ export default function ProjectBlock({ project }) {
           <ul className="tags">
             {project.tech.map((skill, idx) => <li key={idx}>{skill}</li>)}
           </ul>
-          <span className="card-link-wrapper">
-            <a onClick={handleClose} href={project.hyperlink} className="link">{project.shortlink}</a>
-          </span>
         </div>
       </div>
       <ProjectModal project={project} show={show} handleClose={handleClose} />
