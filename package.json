@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "webpack --watch",
-    "compile-dev": "webpack -d --watch",
     "babel-server": "babel ./server/index.js --out-file ./server/index-compiled.js",
     "build-server-dev": "webpack --config webpack.server.js --mode=development -w",
     "build-server": "webpack --config webpack.server.js -w",

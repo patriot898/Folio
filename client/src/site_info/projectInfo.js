@@ -109,8 +109,8 @@ const projects = [
         alt: 'Folio desktop portfolio card modal display',
       },
       {
-        primary_path: `${FOLIO_MOBILE}.webp`,
-        secondary_path: `${FOLIO_MOBILE}.jpg`,
+        primary_path: `${FOLIO_MOBILE}.gif`,
+        secondary_path: `${FOLIO_MOBILE}.gif`,
         alt: 'Folio mobile demo',
       },
       {

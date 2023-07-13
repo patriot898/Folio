@@ -5,7 +5,7 @@ export const FILE_LOCATIONS = {
 };
 
 export const IMAGE_BASE_LOCATIONS = {
-  HEADSHOT_BW: `${S3_LOCATION}/headshot-avatar-bw`,
+  HEADSHOT: `${S3_LOCATION}/headshot-bw-2023`,
   RESERVATION_CALENDAR_1: `${S3_LOCATION}/Reservation+Calendar`,
   RESERVATION_CALENDAR_2: `${S3_LOCATION}/reservation2`,
   RESERVATION_CALENDAR_GIF: `${S3_LOCATION}/res-cal-formatted`,
@@ -27,7 +27,6 @@ export const IMAGE_BASE_LOCATIONS = {
 
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/patriot898',
-  FACEBOOK: 'https://www.facebook.com/kiefer.ragay',
   LINKED_IN: 'https://www.linkedin.com/in/kiefer-ragay/',
 };
 
