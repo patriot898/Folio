@@ -6,7 +6,7 @@ import Resume from '../sections/Resume.jsx';
 import Projects from '../sections/Projects.jsx';
 
 const App = () => (
-    <div>
+    <div className="app-container">
       <NavBar />
       <MainHeader />
       <Bio />

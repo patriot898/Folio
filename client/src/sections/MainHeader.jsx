@@ -17,11 +17,11 @@ const MainHeader = () => (
       <div id="contact-container">
         <p className="personal-name">Kiefer Ragay</p>
         <p className="personal-job">full stack software engineer</p>
-        <dl className="contact-table">
-          <dt className="contact-term">AGE:</dt>
-          <dd className="contact-value">31</dd>
-          <dt className="contact-term">LOCATION:</dt>
-          <dd className="contact-value">{JOB_LOCATION}</dd>
+        <dl>
+          <dt>AGE:</dt>
+          <dd>31</dd>
+          <dt>LOCATION:</dt>
+          <dd>{JOB_LOCATION}</dd>
         </dl>
         <SocialBar />
       </div>

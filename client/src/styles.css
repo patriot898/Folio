@@ -11,23 +11,34 @@ html {
   scroll-behavior: smooth!important;
 }
 
+picture>* {
+  min-width: 100px;
+  max-width: 430px;
+  max-height: 380px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #top-section {
   width: 100%;
-  position: absolute;
   left: 0;
   right: 0;
-  z-index: 0;
+  z-index: 1;
   box-sizing: inherit;
   margin: auto;
   padding-top: 90px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#top-section>* {
+  z-index: 1;
 }
 
 @media (max-width: 575px) {
   .container {
     max-width: 540px;
-  }
-  #avatar-container {
-    display: none;
   }
   .menu-nav {
     display: none;
@@ -38,7 +49,7 @@ html {
   .mobile-menu {
     display: block;
   }
-  .contact-table {
+  dl {
     font-size: 14px;
   }
 }
@@ -47,9 +58,6 @@ html {
   .container {
     max-width: 540px;
   }
-  #avatar-container {
-    display: none;
-  }
   .menu-nav {
     display: none;
   }
@@ -59,7 +67,7 @@ html {
   .mobile-menu {
     display: block;
   }
-  .contact-table {
+  dl {
     font-size: 14px;
   }
 }
@@ -67,9 +75,6 @@ html {
 @media (min-width: 800px) {
   .container {
     max-width: 800px;
-  }
-  #avatar-container {
-    display: block;
   }
   .menu-nav {
     display: block;
@@ -95,7 +100,7 @@ html {
     max-width: 50;
     flex: 0 0 50%;
   }
-  .contact-table {
+  dl {
     font-size: 18px;
   }
 }
@@ -114,13 +119,6 @@ html {
     flex: 0 0 58.333333%;
   }
 
-  /* .card-image {
-     height: 20vw!important;
-  }
-  .project-card {
-     height: 30vw;
-  } */
-
   .modal-body {
     max-width: 75%!important;
   }
@@ -132,36 +130,39 @@ html {
   }
 }
 
+.app-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.app-container>* {
+  flex: 1 1 100%;
+}
+
 #main-header::before {
-  background: linear-gradient(54deg, rgba(213, 216, 55, .80) 34%, hsla(60, 34%, 71%, .80));
-  height: 490px;
+  height: 480px;
   left: 0;
   right: 0;
   position: absolute;
   content: "";
   z-index: 0;
-}
-
-#main-header {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 490px;
-  width: 100%;
 }
 
-.no-webp #main-header {
-  background-image: url('https://kieferfolio.s3.us-west-2.amazonaws.com/FolioFiles/tech-background.jpg');
+.no-webp #main-header::before {
+  background-image: url('https://kieferfolio.s3.us-west-2.amazonaws.com/FolioFiles/tech-background-colored.jpg');
 }
 
-.webp #main-header {
-  background-image: url('https://kieferfolio.s3.us-west-2.amazonaws.com/FolioFiles/tech-background.webp');
+.webp #main-header::before {
+  background-image: url('https://kieferfolio.s3.us-west-2.amazonaws.com/FolioFiles/tech-background-colored.webp');
 }
 
 #avatar-container {
   position: relative;
   float: left;
-  padding-right: 60px;
+  padding: 0 60px 10px 0;
 }
 
 #avatar-image {
@@ -180,13 +181,13 @@ html {
   padding-right: 15px;
 }
 
-.contact-term {
+dt {
   font-weight: 700;
   float: left;
   opacity: 0.7;
 }
 
-.contact-value {
+dd {
   padding-left: 120px;
   padding-right: 20px;
   margin-bottom: 15px;
@@ -357,10 +358,6 @@ hr {
   float: right;
   margin-top: 50px;
 }
-
-/* .modal-link-wrapper {
-
-} */
 
 .link {
   color: rgba(213, 216, 55, .95);
@@ -593,15 +590,6 @@ hr {
 .btn-download:hover {
   color: white;
   background-color: rgba(217, 219, 91, 0.95);
-}
-
-.progress-bar {
-  background-color: rgba(217, 219, 91, 0.95);
-}
-
-.progress {
-  height: 6px;
-  margin-bottom: 30px;
 }
 
 .modal-header {
