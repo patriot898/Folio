@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-server": "babel ./server/index.js --out-file ./server/index-compiled.js",
-    "compile-server-dev": "babel ./server/index.js --watch --out-file ./server/index-compiled.js",
-    "build-dev": "webpack --config webpack.server.js --mode=development -w",
-    "build": "webpack --config webpack.server.js -w",
+    "compile-server":  "webpack --config webpack.server.js --mode=production",
+    "compile-server-dev":  "webpack --config webpack.server.js --mode=development -w",
+    "build-dev": "webpack --config webpack.config.js --mode=development -w",
+    "build": "webpack --config webpack.config.js --mode=production",
     "start-dev": "nodemon ./server/index-compiled.js",
     "start": "node ./server/index-compiled.js"
   },
